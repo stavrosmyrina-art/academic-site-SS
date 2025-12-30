@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Σταύρος Σαμιώτης — Υποψήφιος Διδάκτωρ (Γλωσσολογία)</title>
+  <meta name="description" content="Stavros Samiotis — PhD Candidate (University of Ioannina). Binding Theory, Logophoricity, Anaphora. Publications, talks, experience." />
+  <meta name="theme-color" content="#0b1220" />
+
+  <meta property="og:title" content="Stavros Samiotis — PhD Candidate (Linguistics)" />
+  <meta property="og:description" content="Binding Theory, Logophoricity, Anaphora. Publications & academic profile." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Stavros Samiotis",
+    "jobTitle":"PhD Candidate",
+    "affiliation":{"@type":"CollegeOrUniversity","name":"University of Ioannina"},
+    "sameAs":[
+      "https://scholar.google.com/citations?user=VSOGCQIAAAAJ&hl=el&authuser=2",
+      "https://uoi.academia.edu/StavrosSamiotis",
+      "https://www.researchgate.net/profile/Stavros-Samiotis?ev=hdr_xprf"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>
+
+  <header class="topbar" role="banner">
+    <div class="container topbar-inner">
+      <a class="brand" href="#home" aria-label="Αρχική">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Σταύρος Σαμιώτης</span>
+      </a>
+
+      <div class="topbar-right">
+        <div class="lang" role="group" aria-label="Language switch">
+          <button class="chip" data-lang="el" aria-pressed="true">ΕΛ</button>
+          <button class="chip" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <nav class="nav" aria-label="Κύρια πλοήγηση">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="sr-only">Άνοιγμα μενού</span>
+            <span class="burger" aria-hidden="true"></span>
+          </button>
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="#about" data-i18n="nav_about">Προφίλ</a></li>
+            <li><a href="#research" data-i18n="nav_research">Έρευνα</a></li>
+            <li><a href="#publications" data-i18n="nav_pubs">Δημοσιεύσεις</a></li>
+            <li><a href="#talks" data-i18n="nav_talks">Ομιλίες</a></li>
+            <li><a href="#experience" data-i18n="nav_exp">Εμπειρία</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Επικοινωνία</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker" data-i18n="hero_kicker">
+            Υποψήφιος Διδάκτωρ · Πανεπιστήμιο Ιωαννίνων (Φιλολογία — Γλωσσολογία)
+          </p>
+
+          <h1>
+            <span data-i18n="hero_name">Σταύρος</span> <span class="accent" data-i18n="hero_surname">Σαμιώτης</span>
+          </h1>
+
+          <p class="lead" data-i18n="hero_lead">
+            Θεωρητικός γλωσσολόγος με έμφαση στη διεπαφή Σύνταξης–Πραγματολογίας και στη διανομή/οντολογία
+            αναφορικών (anaphoric) ονοματικών. Ενδιαφέροντα: Binding Theory, Logophoricity, Anaphora.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="assets/CV_Samiotis.pdf" target="_blank" rel="noopener" data-i18n="cta_cv">CV (PDF)</a>
+            <a class="btn" href="#publications" data-i18n="cta_pubs">Δημοσιεύσεις</a>
+            <a class="btn ghost" href="https://scholar.google.com/citations?user=VSOGCQIAAAAJ&hl=el&authuser=2" target="_blank" rel="noopener">
+              Google Scholar
+            </a>
+          </div>
+
+          <ul class="meta">
+            <li>
+              <strong data-i18n="meta_affil_label">Ίδρυμα:</strong>
+              <span data-i18n="meta_affil_value">Πανεπιστήμιο Ιωαννίνων / Τμήμα Φιλολογίας — Τομέας Γλωσσολογίας</span>
+            </li>
+            <li>
+              <strong data-i18n="meta_interests_label">Ενδιαφέροντα:</strong>
+              Binding Theory · Logophoricity · Information Structure · Syntax–Pragmatics/Semantics
+            </li>
+            <li>
+              <strong data-i18n="meta_links_label">Links:</strong>
+              <a href="https://uoi.academia.edu/StavrosSamiotis" target="_blank" rel="noopener">Academia</a> ·
+              <a href="https://www.researchgate.net/profile/Stavros-Samiotis?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate</a>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Κάρτα προφίλ">
+          <div class="avatar" role="img" aria-label="Φωτογραφία προφίλ">
+            <img src="assets/profile.jpg" alt="Φωτογραφία του Σταύρου Σαμιώτη" />
+          </div>
+
+          <div class="quick">
+            <h2 class="h4" data-i18n="quick_title">Σύντομο</h2>
+            <p data-i18n="quick_text">
+              Υποψήφιος διδάκτωρ στη Γλωσσολογία (Παν. Ιωαννίνων). Μελετώ φαινόμενα αναφοράς/αντωνυμίας,
+              λογοφορικότητας και locality στη Νέα Ελληνική, με έμφαση στο στοιχείο ο/τον ίδιο.
+            </p>
+
+            <div class="badges" aria-label="Ετικέτες ενδιαφερόντων">
+              <span class="badge">Binding Theory</span>
+              <span class="badge">Logophoricity</span>
+              <span class="badge">Anaphora</span>
+              <span class="badge">Modern Greek</span>
+            </div>
+          </div>
+
+          <div class="card-links">
+            <a class="mini-link" href="https://scholar.google.com/citations?user=VSOGCQIAAAAJ&hl=el&authuser=2" target="_blank" rel="noopener">Scholar</a>
+            <a class="mini-link" href="https://uoi.academia.edu/StavrosSamiotis" target="_blank" rel="noopener">Academia</a>
+            <a class="mini-link" href="https://www.researchgate.net/profile/Stavros-Samiotis?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="about_title">Ακαδημαϊκό Προφίλ</h2>
+          <p class="muted" data-i18n="about_sub">Εκπαίδευση, θεματικές, σύντομο bio.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 data-i18n="about_bio_title">Bio</h3>
+            <p data-i18n="about_bio_p1">
+              Είμαι θεωρητικός γλωσσολόγος (MA) και υποψήφιος διδάκτωρ στο Πανεπιστήμιο Ιωαννίνων.
+              Το ερευνητικό μου ενδιαφέρον εστιάζει στη διεπαφή Σύνταξης–Πραγματολογίας, με ειδική έμφαση
+              στη διανομή και οντολογία αναφορικών ονοματικών.
+            </p>
+            <p class="muted tiny" data-i18n="about_supervisor">
+              PhD supervisor: Dr. Marika Lekakou (Associate Professor).
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="about_edu_title">Εκπαίδευση</h3>
+            <ul class="timeline">
+              <li>
+                <div class="time">Nov 2023–</div>
+                <div class="desc">
+                  <strong data-i18n="edu_phd">PhD in Linguistics</strong>, University of Ioannina<br/>
+                  <span class="muted" data-i18n="edu_phd_thesis">
+                    Thesis: “Logophoricity, Focus and Locality: the case of the Modern Greek element ‘o idhjos’”.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="time">2019–Dec 2022</div>
+                <div class="desc">
+                  <strong data-i18n="edu_ma">MA in Theoretical Linguistics</strong>, University of Ioannina<br/>
+                  <span class="muted" data-i18n="edu_ma_thesis">
+                    Thesis: “The distribution and semantic-syntactic properties of (o/i/to) idhjos/-a/-o”.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="time">2013–2018</div>
+                <div class="desc">
+                  <strong data-i18n="edu_ba">BA in Philology</strong>, University of Ioannina<br/>
+                  <span class="muted" data-i18n="edu_ba_note">Modern & Medieval Greek language and literature.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 data-i18n="about_further_title">Summer/Winter Schools</h3>
+            <ul class="list">
+              <li>University of Crete — Creteling2024 (July 2024)</li>
+              <li>The NYI Global Institute — v-NYI#8 (Jan 2024)</li>
+              <li>The NYI Global Institute — v-NYI#7 (Jun–Jul 2023)</li>
+              <li>The New York–St. Petersburg Institute — v-NYI#3 (Jul 2021)</li>
+              <li>University of Crete — Creteling2018 (Jul 2018)</li>
+              <li>Leiden University (Erasmus+) — Sep–Dec 2017</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="about_lang_title">Γλώσσες</h3>
+            <ul class="list">
+              <li><strong data-i18n="lang_el">Greek</strong> — <span data-i18n="lang_el_level">Native</span></li>
+              <li><strong data-i18n="lang_en">English</strong> — C2</li>
+              <li><strong data-i18n="lang_de">German</strong> — B1</li>
+            </ul>
+            <p class="muted tiny" data-i18n="about_scholarship">
+              Scholarship: Erasmus+ (IKY), Sep–Dec 2017.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="research_title">Έρευνα</h2>
+          <p class="muted" data-i18n="research_sub">Θεματικές και εστίαση.</p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card">
+            <h3>Binding Theory</h3>
+            <p data-i18n="research_bt">
+              Περιορισμοί δέσμευσης/συν-αναφοράς, referential dependence και locality στο ονοματικό πεδίο.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Logophoricity</h3>
+            <p data-i18n="research_log">
+              Κωδικοποίηση οπτικής γωνίας/“speaker” σε δομές λόγου και σχέση με στοιχεία όπως ο ίδιος στη Νέα Ελληνική.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Anaphora & Information Structure</h3>
+            <p data-i18n="research_ana">
+              Αναφορά/αντωνυμία, anaphoric nominals και αλληλεπίδραση με focus/πραγματολογία.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="pubs_title">Δημοσιεύσεις</h2>
+          <p class="muted" data-i18n="pubs_sub">Αναζήτηση & φίλτρο ανά τύπο.</p>
+        </div>
+
+        <div class="pub-controls">
+          <input id="pubSearch" class="input" type="search"
+                 placeholder="Αναζήτηση (τίτλος, έτος, venue, keyword)..."
+                 data-i18n-placeholder="pubs_search_ph" />
+          <select id="pubFilter" class="select" aria-label="Φίλτρο">
+            <option value="all" data-i18n="pubs_filter_all">Όλα</option>
+            <option value="proceedings" data-i18n="pubs_filter_proc">Proceedings</option>
+            <option value="journal" data-i18n="pubs_filter_journal">Journal</option>
+            <option value="thesis" data-i18n="pubs_filter_thesis">Thesis</option>
+            <option value="other" data-i18n="pubs_filter_other">Other</option>
+          </select>
+        </div>
+
+        <ol class="pub-list">
+          <!-- user-provided versions take precedence when overlapping -->
+          <li class="pub-item" data-type="proceedings" data-year="in press" data-keywords="idhjos logophor logophoricity modern greek">
+            <div class="pub-main">
+              <h3 class="pub-title">
+                Samiotis, S. (in press). <span class="lang-el">Ο ίδιος: ένα λογοφορικό στοιχείο στην Κοινή Νέα Ελληνική;</span>
+                <span class="lang-en">O idhjos: a logophor in Standard Modern Greek?</span>
+              </h3>
+              <p class="pub-venue"><span class="pill">Proceedings</span> <span class="muted">·</span> Proceedings of the 16th International Conference of Greek Linguistics.</p>
+            </div>
+          </li>
+
+          <li class="pub-item" data-type="proceedings" data-year="2025" data-keywords="ton idhjo referential dependence modern greek">
+            <div class="pub-main">
+              <h3 class="pub-title">
+                Samiotis, S. (2025). <span class="lang-el">Το αναφορικά εξαρτημένο στοιχείο ‘τον ίδιο’ της Κοινής Νέας Ελληνικής</span>
+                <span class="lang-en">The referentially dependent element ‘ton idhjo’ in Standard Modern Greek</span>
+              </h3>
+              <p class="pub-venue">
+                <span class="pill">Proceedings</span> <span class="muted">·</span>
+                Proceedings of the 11th Conference of Master Students and Doctoral Students of the Faculty of Philology NKUA: Linguistics.
+                Athens: National and Kapodistrian University of Athens.
+              </p>
+            </div>
+          </li>
+
+          <li class="pub-item" data-type="journal" data-year="2024" data-keywords="restrictions distribution ton idhjo modern greek">
+            <div class="pub-main">
+              <h3 class="pub-title">
+                Samiotis, S. (2024). <span class="lang-el">Περιορισμοί στην κατανομή του στοιχείου ‘τον ίδιο’ της Κοινής Νέας Ελληνικής</span>
+                <span class="lang-en">Restrictions on the distribution of the element ‘ton idhjo’ in Standard Modern Greek</span>
+              </h3>
+              <p class="pub-venue">
+                <span class="pill">Journal</span> <span class="muted">·</span>
+                Studies in Greek linguistics 43. Thessaloniki: Manolis Triantafyllides Foundation.
+              </p>
+            </div>
+          </li>
+
+          <li class="pub-item" data-type="thesis" data-year="2022" data-keywords="idhjos distribution semantics syntax thesis">
+            <div class="pub-main">
+              <h3 class="pub-title">
+                Samiotis, S. (2022). <span class="lang-el">Η κατανομή και οι σημασιοσυντακτικές ιδιότητες του (ο/η/το) ίδιος/-α/-ο</span>
+                <span class="lang-en">The distribution and the semantic-syntactic properties of (o/i/to) idhjos/-a/-o</span>
+                <span class="muted"> (MA Thesis)</span>
+              </h3>
+              <p class="pub-venue"><span class="pill">Thesis</span> <span class="muted">·</span> University of Ioannina, Division of Linguistics.</p>
+              <div class="pub-links">
+                <a href="https://dx.doi.org/10.26268/heal.uoi.12178" target="_blank" rel="noopener">DOI</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- from CV (non-overlapping) -->
+          <li class="pub-item" data-type="proceedings" data-year="in preparation" data-keywords="exempt anaphora nominal domain modern greek">
+            <div class="pub-main">
+              <h3 class="pub-title">
+                Samiotis, S. (in preparation). <span class="lang-el">Exempt anaphora in Standard Modern Greek: evidence from the nominal domain</span>
+                <span class="lang-en">Exempt anaphora in Standard Modern Greek: evidence from the nominal domain</span>
+              </h3>
+              <p class="pub-venue"><span class="pill">Proceedings</span> <span class="muted">·</span> Proceedings of the 17th International Conference of Greek Linguistics.</p>
+            </div>
+          </li>
+
+          <li class="pub-item" data-type="other" data-year="2023" data-keywords="maker culture fab innovation open access course">
+            <div class="pub-main">
+              <h3 class="pub-title">Samiotis, S., Papatsimpa, S., Zourou, K. (2023). Maker culture and Fab innovation.</h3>
+              <p class="pub-venue"><span class="pill">Other</span> <span class="muted">·</span> BOLD consortium. Online Open Access Course.</p>
+              <div class="pub-links">
+                <a href="https://shorturl.at/lwvLx" target="_blank" rel="noopener">Course</a>
+              </div>
+            </div>
+          </li>
+        </ol>
+
+        <p class="muted tiny" data-i18n="pubs_tip">
+          Αν θέλεις, μπορώ να προσθέσω κουμπιά “PDF/Slides/DOI” όπου υπάρχουν διαθέσιμα links.
+        </p>
+      </div>
+    </section>
+
+    <!-- TALKS -->
+    <section id="talks" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="talks_title">Ομιλίες & Presentations</h2>
+          <p class="muted" data-i18n="talks_sub">Επιλεγμένες παρουσιάσεις από συνέδρια.</p>
+        </div>
+
+        <div class="card">
+          <ul class="list">
+            <li>
+              <strong>2025</strong> — 17th International Conference of Greek Linguistics (University of Cambridge):
+              “Exempt anaphora in Standard Modern Greek: evidence from the nominal domain” (oral).
+            </li>
+            <li>
+              <strong>2024</strong> — 12th Conference of Master & Doctoral Students (NKUA, Linguistics) (forthcoming):
+              Michos, Antonopoulou & Samiotis: “Το πρόθημα ξε- … / The prefix kse- …” (oral).
+            </li>
+            <li>
+              <strong>2023</strong> — 16th ICGL (AUTH): “‘o ίδιος’: ένα λογοφορικό … / ‘o idhjos’: a logophor …” (oral).
+            </li>
+            <li>
+              <strong>2023</strong> — Studies in Greek Linguistics (AUTH): “Περιορισμοί στην κατανομή του ‘τον ίδιο’ …” (oral).
+            </li>
+            <li>
+              <strong>2022</strong> — 11th Conference of Master & Doctoral Students (NKUA, Linguistics):
+              “Το αναφορικά εξαρτημένο στοιχείο ‘τον ίδιο’ …” (oral).
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="exp_title">Εμπειρία & Δραστηριότητα</h2>
+          <p class="muted" data-i18n="exp_sub">Research collaborations, εργασία, εθελοντισμός.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 data-i18n="exp_collab_title">Research collaborations</h3>
+            <ul class="list">
+              <li><strong>Data Analyst</strong>, University of Ioannina (iRead, Horizon 2020) — Oct 2020–Jun 2021</li>
+              <li><strong>Data Analyst (trainee)</strong>, Leiden University (Language and Number, NWO Horizon) — Sep–Dec 2017</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="exp_work_title">Εργασιακή εμπειρία</h3>
+            <ul class="list">
+              <li><strong>Teacher of Greek Language & Literature</strong>, Secondary Education (“Nous” tutoring school) — Dec 2023–present</li>
+              <li><strong>Coach</strong>, Nautical Club of Limnos — Jul–Sep 2020</li>
+              <li><strong>Secretary</strong>, Astron S.A. — Jul–Sep 2015</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 data-i18n="exp_vol_title">Εθελοντισμός</h3>
+            <ul class="list">
+              <li><strong>Rowing Umpire</strong>, Hellenic Rowing Federation — Oct 2021–present</li>
+              <li><strong>Teacher (volunteer)</strong>, Social Tutoring School (Municipality of Zografou) — Oct 2023–Jun 2024</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="exp_misc_title">Άλλα</h3>
+            <ul class="list">
+              <li data-i18n="exp_military">Στρατιωτική θητεία: May 2018–Jan 2019</li>
+            </ul>
+            <p class="muted tiny" data-i18n="exp_sports_note">
+              (Αν θέλεις, προσθέτω ξεχωριστή ενότητα “Sport distinctions” με τις διακρίσεις κωπηλασίας.)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="contact_title">Επικοινωνία</h2>
+          <p class="muted" data-i18n="contact_sub">Email με anti-spam εμφάνιση + links.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 data-i18n="contact_details_title">Στοιχεία</h3>
+
+            <p>
+              <strong data-i18n="contact_email_label">Email:</strong>
+              <a id="emailLink" href="#" rel="nofollow">[hidden]</a>
+              <span class="muted tiny" data-i18n="contact_email_hint">— (anti-spam)</span>
+              <br/>
+              <strong data-i18n="contact_phone_label">Τηλ.:</strong> <span class="muted">+30 6971548110</span><br/>
+              <strong data-i18n="contact_city_label">Πόλη:</strong> <span class="muted">Athens</span>
+            </p>
+
+            <p class="muted tiny" data-i18n="contact_privacy_note">
+              Αν προτιμάς να μη φαίνεται ούτε το τηλέφωνο/πόλη, το αφαιρώ.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="contact_links_title">Ακαδημαϊκά Προφίλ</h3>
+            <ul class="list">
+              <li><a href="https://scholar.google.com/citations?user=VSOGCQIAAAAJ&hl=el&authuser=2" target="_blank" rel="noopener">Google Scholar</a></li>
+              <li><a href="https://uoi.academia.edu/StavrosSamiotis" target="_blank" rel="noopener">Academia.edu</a></li>
+              <li><a href="https://www.researchgate.net/profile/Stavros-Samiotis?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted tiny">© <span id="year"></span> Stavros Samiotis.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
